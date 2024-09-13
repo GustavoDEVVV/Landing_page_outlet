@@ -7,7 +7,8 @@
 
 body{
     background: #ffffff;
-
+    margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -76,3 +77,44 @@ header a:hover::after {
     border-radius: 1rem;
 }
 
+/* pagina principal */
+
+section{
+    width: 100vw; /* 100% da largura da viewport */
+    height: 100vh; /* 100% da altura da viewport */
+    position: relative;
+}
+
+.pg-principal{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.pg-principal img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.carrosel-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    animation: carrosel 10s linear infinite;
+}
+
+.carrosel-content .img {
+width: 8rem;
+}
+
+@keyframes carrosel {
+
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
