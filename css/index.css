@@ -1,0 +1,78 @@
+/* font-family:  "Protest Guerrilla", sans-serif; para numeros */
+/* font-family: "Montserrat", sans-serif; para links e titulos */
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    background: #ffffff;
+
+}
+
+
+/* header  */
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 2rem; 
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0F592F;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    transition: 1s ease;
+}
+
+header a:hover {
+    color: #003F86;
+}
+
+header a::after {
+    content: '';
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0F592F;
+    transition: width 0.4s ease, left 0.3s ease;
+}
+
+header a:hover::after {
+    width: 70%;
+}
+
+.logo img{
+    width: 5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.pesquisar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.pesquisar ion-icon{
+    font-size: 3rem;
+    color: #0F592F;
+}
+
+.pesquisar input{
+    border: #0F592F 2px solid;
+    border-radius: 1rem;
+}
+
