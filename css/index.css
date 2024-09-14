@@ -1,11 +1,12 @@
 /* font-family:  "Protest Guerrilla", sans-serif; para numeros */
 /* font-family: "Montserrat", sans-serif; para links e titulos */
+/* font-family: "Poppins", sans-serif; font-weight: 100; font-style: italic; descrição */
 
 :root {
     font-size: 62.5%;
 }
 
-body{
+body {
     background: #ffffff;
     margin: 0;
     overflow-x: hidden;
@@ -13,19 +14,19 @@ body{
 
 
 /* header  */
-header{
+header {
     display: flex;
     justify-content: space-evenly;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
-    padding: 2rem; 
+    padding: 2rem;
     padding-bottom: 0;
     font-size: 1.5rem;
     font-weight: 600;
@@ -33,10 +34,6 @@ a{
     font-family: "Montserrat", sans-serif;
     position: relative;
     transition: 1s ease;
-}
-
-header a:hover {
-    color: #003F86;
 }
 
 header a::after {
@@ -54,43 +51,43 @@ header a:hover::after {
     width: 70%;
 }
 
-.logo img{
+.logo img {
     width: 5rem;
     align-items: center;
     margin-top: 1rem;
 }
 
-.pesquisar{
+.pesquisar {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 
-.pesquisar ion-icon{
+.pesquisar ion-icon {
     font-size: 3rem;
     color: #0F592F;
 }
 
-.pesquisar input{
+.pesquisar input {
     border: #0F592F 2px solid;
     border-radius: 1rem;
 }
 
 /* pagina principal */
 
-section{
-    width: 100vw; /* 100% da largura da viewport */
-    height: 100vh; /* 100% da altura da viewport */
+section {
+    width: 100vw;
+    height: 100vh;
     position: relative;
 }
 
-.pg-principal{
+.pg-principal {
     width: 100%;
     margin-top: 2rem;
 }
 
-.pg-principal img{
+.pg-principal img {
     width: 100%;
     object-fit: cover;
     margin-bottom: 2rem;
@@ -104,7 +101,7 @@ section{
 }
 
 .carrosel-content .img {
-width: 8rem;
+    width: 8rem;
 }
 
 @keyframes carrosel {
@@ -120,46 +117,94 @@ width: 8rem;
 
 /* pagina de promoção */
 
-.pg-promocao{
+.pg-promocao {
     display: grid;
+    justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-.card-de-cima{
+.card-de-cima {
     display: flex;
     justify-content: space-evenly;
     gap: 5rem;
 }
 
-.card1{
+.card1 {
     width: 50rem;
     height: 20rem;
     position: relative;
 }
 
-.card1 img{
-    width: 100%;
-    height: 110%;
+.card1 img {
+    width: 90%;
     border-radius: 1rem;
     object-fit: cover;
 }
-.card2{
+
+.card2 {
     width: 30rem;
     height: 20rem;
-    border: 5px solid #0F592F;
 }
 
-.card3{
+.card2 img {
+    width: 90%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.card3 {
     width: 30rem;
     height: 20rem;
-    border: 5px solid #0F592F;
 }
 
-.parte-de-baixo{
+.card3 img {
+    width: 90%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.parte-de-baixo {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 7rem;
 }
 
-.parte-de-baixo h1{
+.parte-de-baixo h1 {
+    width: 40rem;
+    margin: 0;
+}
+
+#titulo-promo {
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #0F592F;
+}
+
+#descricao-promo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 30rem;
+}
+
+.carousel-images img {
+    width: 30rem;
+    border-radius: 10px;
 }

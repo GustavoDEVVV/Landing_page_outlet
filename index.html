@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,11 +33,11 @@
                 <a href="#" class="active">
                     Novo
                 </a>
-    
+
                 <a href="#">
-                    Homen
+                    Homem
                 </a>
-    
+
                 <a href="#">
                     Mulher
                 </a>
@@ -67,26 +77,42 @@
     <section class="pg-promocao">
         <div class="card-de-cima">
             <div class="card1">
-                <img src="./assents/paleta de cores.png" alt="">
+                <img src="./assents/pg-promocao/nike-desconto.jpg" alt="">
             </div>
-            <div class="card2"></div>
-            <div class="card3"></div>
+            <div class="card2">
+                <img src="./assents/pg-promocao/lacoste-promo.jpg" alt="">
+            </div>
+            <div class="card3">
+                <img src="./assents/pg-promocao/fila-promo.jpg" alt="">
+            </div>
         </div>
 
         <div class="parte-de-baixo">
             <div class="texto">
-                <h1>Promoções pra você</h1><br>
-                <h1>Aproveite nossas promoçoes em diversas lojas e marcas</h1>
+                <h1 id="titulo-promo">Promoções pra você</h1>
+                <h1 id="descricao-promo">Descubra as ofertas e promoções imperdíveis da nossa loja! <br>Atualizamos
+                    nosso catálogo regularmente com descontos especiais em roupas casuais, sociais e esportivas,
+                    perfeitas para qualquer ocasião. <br> Aproveite os melhores preços em peças selecionadas e renove
+                    seu guarda-roupa com estilo, qualidade e economia. <br> Fique de olho, as promoções são por tempo
+                    limitado e podem acabar rápido. Não perca a chance de garantir seus favoritos por um valor
+                    irresistível!</h1>
             </div>
 
             <div class="card-de-baixo">
-                <img src="./assents/paleta de cores.png" alt="">
+                <div class="carousel-container">
+                    <div class="carousel-images">
+                        <img src="./assents/pg-promocao/calvin-promo.jpg" alt="Imagem 1">
+                        <img src="./assents/pg-promocao/adidas-promo.jpg" alt="Imagem 2">
+                        <img src="./assents/pg-promocao/gucci-promo.jpg" alt="Imagem 3">
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
+    <script src="./Js/carrosel-promo.Js"></script>
     <!-- script de icones -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
