@@ -208,3 +208,69 @@ section {
     width: 30rem;
     border-radius: 10px;
 }
+
+/* pagina de recomendações */
+
+.pg-recomendacoes{
+    
+}
+
+.descricao-recomendacoes h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #0F592F;
+}
+
+.descricao-recomendacoes p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: black;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.texto-recomendacoes h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #0F592F;
+    margin: 5rem;
+}
+
+.card-recomendacoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-recomendacoes .card1{
+    width: 30rem;
+}
+
+.card-recomendacoes .card1 img{
+    width: 30rem;
+}
+
+.card-recomendacoes .card2{
+    width: 30rem;
+}
+
+.card-recomendacoes .card2 img{
+    width: 30rem;
+}
+
+.card-recomendacoes .card3{
+    width: 30rem;
+}
+
+.card-recomendacoes .card3 img{
+    width: 30rem;
+}
+
+.card-recomendacoes .card4{
+    width: 30rem;
+}
+
+.card-recomendacoes .card4 img{
+    width: 30rem;
+}
