@@ -1,0 +1,65 @@
+body {
+    background-image: url('../assents/Fundo\ login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-login {
+    display: grid;
+    justify-content: center;
+    margin-top: 20dvh;
+}
+
+.titulo-form{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-form h1{
+    font-family: "Montserrat", sans-serif;
+    color: #0F592F;
+}
+
+#loginForm{
+    padding: 3rem;
+    justify-content: center;
+    border-radius: 1rem;
+    border: 2px solid #0F592F;
+}
+
+label{
+    font-family: "Montserrat", sans-serif;
+    color: #0F592F;
+    font-weight: 600;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #0F592F;
+    outline: none;
+    color: #0F592F;
+    font-family: "Montserrat", sans-serif;
+}
+
+#cad{
+  align-items: center;
+  width: 4rem;
+  background-color: transparent;
+  border: 2px solid #0F592F;
+  backdrop-filter: blur(20px);
+  color: #0F592F;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+a{
+    border: none;
+    background-color: transparent;
+    color: #0F592F;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+}

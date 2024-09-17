@@ -24,9 +24,9 @@ header {
     justify-content: center;
 }
 
-a {
+.active{
     text-decoration: none;
-    padding: 2rem;
+    padding: 1.2rem;
     padding-bottom: 0;
     font-size: 1.5rem;
     font-weight: 600;
@@ -36,7 +36,7 @@ a {
     transition: 1s ease;
 }
 
-header a::after {
+header .active::after {
     content: '';
     position: absolute;
     left: 10%;
@@ -47,12 +47,12 @@ header a::after {
     transition: width 0.4s ease, left 0.3s ease;
 }
 
-header a:hover::after {
+header .active:hover::after {
     width: 70%;
 }
 
 .logo img {
-    width: 5rem;
+    width: 3rem;
     align-items: center;
     margin-top: 1rem;
 }
@@ -72,6 +72,32 @@ header a:hover::after {
 .pesquisar input {
     border: #0F592F 2px solid;
     border-radius: 1rem;
+}
+
+header .login{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid #0F592F;
+    width: 5.5rem;
+    height: 3rem;
+    color: #0F592F;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    background-color: #e1e1e167;
+}
+
+#userEmail{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 /* pagina principal */
