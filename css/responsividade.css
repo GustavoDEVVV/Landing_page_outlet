@@ -1,0 +1,145 @@
+@media(min-width: 320px) and (max-width: 720px) {
+
+    /* parte de header */
+     .active {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    header {
+        display: block;
+    }
+
+    .pesquisar ion-icon {
+        font-size: 2rem;
+    }
+
+    .pesquisar {
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    header .login {
+        margin-left: 3rem;
+    }
+
+    button {
+        font-size: 1rem;
+        width: 4rem;
+    }
+
+    #btn-login {
+        width: 4.5rem;
+    }
+
+    /* pagina principal */
+    .pg-principal {
+        margin-bottom: 10rem;
+    }
+
+    .carrosel-content {
+        gap: 1rem;
+    }
+
+    .carrosel-content .img img{
+        width: 4rem;
+    }
+
+    /* parte da pagina de promoções */
+
+    .pg-promocao {
+        margin-bottom: 10rem;
+    }
+
+    .card1 img {
+        width: 50%;
+    }
+
+    .card2 img {
+        width: 50%;
+    }
+
+    .card3 img {
+        width: 50%;
+    }
+
+    .parte-de-baixo h1 {
+        width: 20rem;
+        margin: 0;
+    }
+
+    .card-de-cima {
+        display: block;
+    }
+
+    .parte-de-baixo {
+        display: block;
+    }
+
+    .carousel-images {
+        width: 15rem;
+    }
+
+    .carousel-images img {
+        width: 15rem;
+    }
+
+    /* parte de pagina de recomendações */
+
+    .card-recomendacoes .card1 {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card1 img {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card2 {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card2 img {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card3 {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card3 img {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card4 {
+        width: 10rem;
+    }
+
+    .card-recomendacoes .card4 img {
+        width: 10rem;
+    }
+
+    .card-recomendacoes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .texto-recomendacoes h1 {
+        font-size: 2rem;
+    }
+    .descricao-recomendacoes h1{
+        font-size: 1rem;
+    }
+    
+    .descricao-recomendacoes p{
+        font-size: 1rem;
+    }
+
+    /* parte da pagina de login */
+    body{
+        background-image: none;
+    }
+}

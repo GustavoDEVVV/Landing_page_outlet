@@ -104,12 +104,12 @@ button:hover{
 
 section {
     width: 100vw;
-    height: 100vh;
     position: relative;
 }
 
 .pg-principal {
     width: 100%;
+    margin-bottom: 5rem;
     margin-top: 2rem;
 }
 
@@ -237,10 +237,6 @@ section {
 
 /* pagina de recomendações */
 
-.pg-recomendacoes{
-    
-}
-
 .descricao-recomendacoes h1{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -266,6 +262,7 @@ section {
 
 .card-recomendacoes{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
