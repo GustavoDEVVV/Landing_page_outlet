@@ -6,6 +6,21 @@
     font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #0F592F;
+    border-radius: 6px;
+}
+
 body {
     background: #ffffff;
     margin: 0;
