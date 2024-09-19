@@ -162,12 +162,14 @@ section {
     display: grid;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .card-de-cima {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 5rem;
 }
 

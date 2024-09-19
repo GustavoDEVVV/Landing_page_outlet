@@ -1,5 +1,9 @@
 @media(min-width: 320px) and (max-width: 720px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     /* parte de header */
      .active {
         padding: 1rem;
@@ -19,12 +23,17 @@
     }
 
     .pesquisar {
-        margin-left: 5rem;
         margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+
     header .login {
-        margin-left: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     button {
@@ -46,7 +55,18 @@
     }
 
     .carrosel-content .img img{
-        width: 4rem;
+        width: 3rem;
+    }
+
+    @keyframes carrosel {
+
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(0%);
+        }
     }
 
     /* parte da pagina de promoções */
@@ -55,16 +75,29 @@
         margin-bottom: 10rem;
     }
 
+    .card1{
+        width: 30rem;
+    }
+
+    .card2{
+        width: 20rem;
+        margin-bottom: 4rem;
+    }
+
+    .card3{
+        width: 20rem;
+    }
+
     .card1 img {
-        width: 50%;
+        width: 30rem;
     }
 
     .card2 img {
-        width: 50%;
+        width: 20rem;
     }
 
     .card3 img {
-        width: 50%;
+        width: 20rem;
     }
 
     .parte-de-baixo h1 {
@@ -87,6 +120,7 @@
     .carousel-images img {
         width: 15rem;
     }
+
 
     /* parte de pagina de recomendações */
 
@@ -129,6 +163,9 @@
 
     .texto-recomendacoes h1 {
         font-size: 2rem;
+    }
+    .descricao-recomendacoes{
+        margin: 1rem;
     }
     .descricao-recomendacoes h1{
         font-size: 1rem;
